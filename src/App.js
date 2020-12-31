@@ -1,22 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/snowflake_logo_color.svg';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" class="bg-teal-500 md:bg-red-500 lg:bg-teal-500">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>UnderReact</h1>
+        <p>Yes, I look ugly as fuck... for now</p>
+        <p>My background color will be red at the md breakpoint, but teal at every other breakpoint</p>
       </header>
     </div>
   );
